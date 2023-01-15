@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    span {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    let name = "yang"
+    let age = 18
+    let bo = true
+    document.write(`my name is <span>${name}</span>,age is ${age}\n`)
+    document.write('my name is ' + name +',age is '+age + '\n')
+    document.write(`my age is ${age}\n`)
+    document.write(bo+'\n')
+    //undefined
+    let xx
+    document.write(xx + '\n')
+    //null
+    let obj = null
+    document.write(obj + '\n')
+    //print var type
+    document.write(typeof name)
+    document.write(typeof xx)
+    document.write(typeof obj)
+   //inexplicit type change
+   console.log('123' + 123)
+   console.log('123' - 123)
+   console.log(+age)
+   console.log(-age)
+
+
+  </script>
+</body>
+</html>
